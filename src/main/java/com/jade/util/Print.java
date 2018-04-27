@@ -4,22 +4,22 @@ import java.io.PrintStream;
 
 public class Print {
 	
-	//´òÓ¡¿Õ°×ĞÂĞĞ
+	//æ¢è¡Œ
 	public static void print() {
 		System.out.println();
 	}
 	
-	//´òÓ¡ĞÂĞĞ
+	//æ‰“å°å¹¶æ¢è¡Œ
 	public static void print(Object obj) {
 		System.out.println(obj);
 	}
 	
-	//´òÓ¡not line break
+	//æ‰“å°ï¼Œä¸æ¢è¡Œ
 	public static void printnb(Object obj) {
 		System.out.print(obj);
 	}
 	
-	//¸ñÊ½»¯´òÓ¡
+	//æ ¼å¼åŒ–æ‰“å°
 	public static PrintStream printf(String format, Object... args) {
 		return System.out.printf(format, args);
 	}
